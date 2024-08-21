@@ -1,6 +1,6 @@
 import nav from '../../components/presentationNav.js';
 import { generateQR } from '../../functions/generateQr.js';
-const url = "/chat";
+const url = "https://talk.maxbergstrom.se/chat";
 const qrUrl = await generateQR(url);
 
 export default
@@ -11,7 +11,10 @@ export default
         </h1>
 
         <section class="qanda">
-            <img class="" src="${qrUrl}" alt="QR-kod"/>
+            <section class="qanda-qr">
+                <img class="" src="${qrUrl}" alt="QR-kod"/>
+                <a href="${url}">${url}</a>
+            </section>
             <section id="chat">
                 <section class="bubble">
                     <span class="chatMsg">Hello</span>

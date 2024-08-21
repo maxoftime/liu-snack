@@ -8,13 +8,9 @@ export default
         </h1>
 
         <p>
-            @maxoftime
-            <br>
+            <a href="https://xlent.se">XLENT.se</a>
             <br>
             <a href="https://linkedin.com/in/maxbergstrom/">linkedin.com/in/maxbergstrom</a>
-            <br>
-            <br>
-            <a href="https://github.com/maxoftime">github.com/maxoftime</a>
         </p>
 
         ${nav('/demos', '/qanda')}

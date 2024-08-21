@@ -1,7 +1,8 @@
 import { generateQR } from '../../functions/generateQr.js';
 import nav from '../../components/presentationNav.js';
 
-const url = "hejhej";
+
+const url = "https://talk.maxbergstrom.se/nyfiken";
 const imgUrl = await generateQR(url);
 
 export default
@@ -16,8 +17,10 @@ export default
                 Tre korta frågor, såklart helt anonymt. 
             </p>
 
-            <img class="qr" src="${imgUrl}" alt="Nyfiken på er">
-            <a href="${url}">${url}</a>
+            <section class="qanda-qr">
+                <img class="qr" src="${imgUrl}" alt="Nyfiken på er">
+                <a href="${url}">${url}</a>
+            </section>
 
             ${nav('/om-xlent', '/resultat')}
         </main>

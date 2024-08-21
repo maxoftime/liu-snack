@@ -234,6 +234,9 @@ nav[aria-label='Presentation'] a.previous:hover  {
 img.qr {
     max-width: min(666px, 100%);
     margin: 2em 0;
+    font-size: 0.7em;
+    text-align: center;
+    margin-bottom: 0.5em;
 }
 
 .masonry { /* Masonry container */
@@ -261,17 +264,25 @@ img.qr {
 .qanda {
     display: flex;
     width: 100%;
-    height: 50vh;
+    min-height: 50vh;
     align-items: center;
 }
 
+.qanda-qr {
+    width: 40%;
+    font-size: 0.7em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .qanda img {
-    width: calc(50% - 1em);
-    margin: 0;
-    margin-right: 1em;
+    width: 100%;
     height: auto;
     aspect-ratio: 1 / 1;
+    margin-bottom: 0.5em;
 }
+
 
 #chat {
     flex-direction: column;
