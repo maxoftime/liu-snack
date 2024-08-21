@@ -86,13 +86,13 @@ app.get('/stream', async (req, res) => {
       Och det här är deras samlade svar:
 
       Städer:
-      ${fs.readFileSync(`./src/dbs/city.txt`, 'utf8')}
+      ${fs.readFileSync(`${__dirname}/dbs/city.txt`, 'utf8')}
 
       Åldrar:
-      ${fs.readFileSync(`./src/dbs/age.txt`, 'utf8')}
+      ${fs.readFileSync(`${__dirname}/dbs/age.txt`, 'utf8')}
 
       Intressen:
-      ${fs.readFileSync(`./src/dbs/fun.txt`, 'utf8')}
+      ${fs.readFileSync(`${__dirname}/dbs/fun.txt`, 'utf8')}
 
       Dra gärna slutsatser och tipsa om ett par relevanta aktiviteter som kan passa målgruppen i Norrköping.
       Skriv som att du pratar med studenterna i publiken. Se gärna till att nämna specifika detaljer om svaren, så att det märks att det inte bara är ett boilerplate-svar. Och skriv gärna med en trevlig välkomnande ton men håll dig till två eller tre paragrafer. 
