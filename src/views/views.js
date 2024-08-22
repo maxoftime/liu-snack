@@ -5,6 +5,7 @@ import input from './input.js'
 import fourOhFour from './404.js'
 import intro from './presentation/intro.js'
 import xlent from './presentation/xlent.js'
+import hallbart from './presentation/hallbart.js'
 import demos from './presentation/demos.js'
 import future from './presentation/future.js'
 import nyfikenQr from './presentation/nyfikenQr.js'
@@ -21,6 +22,7 @@ export {
   fourOhFour,
   intro,
   xlent,
+  hallbart,
   demos,
   future,
   nyfikenQr,

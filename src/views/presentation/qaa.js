@@ -1,6 +1,6 @@
 import nav from '../../components/presentationNav.js';
 import { generateQR } from '../../functions/generateQr.js';
-const url = "https://talk.maxbergstrom.se/chat";
+const url = "http://18.192.172.194/chat";
 const qrUrl = await generateQR(url);
 
 export default

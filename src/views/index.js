@@ -11,7 +11,6 @@ export default
             <ul>
                 <li>Vem är jag och vad gör jag här?</li>
                 <li>Vilka är XLENT och vad gör vi?</li>
-                <li>Lite inspiration och demos</li>
                 <li>Framtidsspaningar</li>
                 <li>Frågestund</li>
             </ul>

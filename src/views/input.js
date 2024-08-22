@@ -1,7 +1,7 @@
 export default
  `
     <main>
-        <h1>Anonymt och GDPR-säkrat</h1>
+        <h1>Vem är du?</h1>
         <form action="/tack" method="post">
             <label for="city">Tidigare ort</label>
             <input autofocus type="text" name="city" id="city">

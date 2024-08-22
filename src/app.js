@@ -42,6 +42,11 @@ app.get('/om-xlent', (req, res) => {
   res.send(body)
 })
 
+app.get('/hallbara-konsulter', (req, res) => {
+  const body = views.header + views.hallbart + views.footer;
+  res.send(body)
+})
+
 app.get('/nyfiken-qr', (req, res) => {
   const body = views.header + views.nyfikenQr + views.footer;
   res.send(body)

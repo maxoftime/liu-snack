@@ -77,6 +77,6 @@ export default
 
         </section>
 
-        ${nav('/demos', '/tack')}
+        ${nav('/resultat', '/tack')}
     </main>
 `

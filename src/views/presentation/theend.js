@@ -13,7 +13,7 @@ export default
             <a href="https://linkedin.com/in/maxbergstrom/">linkedin.com/in/maxbergstrom</a>
         </p>
 
-        ${nav('/demos', '/qanda')}
+        ${nav('/framtiden', '/qanda')}
 
     </main>
 `

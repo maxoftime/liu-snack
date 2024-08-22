@@ -3,7 +3,7 @@ export default
  `
     <main>
         <h1 class="large-no-wrap">
-            Vilka är <span style="white-space: nowrap;"><img style="display: inline;" src="/img/xlent-white.svg" alt="XLENT" />?</span>
+            Vilka är <span style="white-space: nowrap;"><img style="display: inline; max-height: 0.7em;" src="/img/xlent-white.svg" alt="XLENT" />?</span>
         </h1>
 
         <p>
@@ -18,6 +18,6 @@ export default
              Vi tror på långsiktiga relationer och finns här för att stötta er och tillsammans skapa gemensam framgång.
         </p>
 
-        ${nav('/intro', '/nyfiken-qr')}
+        ${nav('/intro', '/hallbara-konsulter')}
     </main>
 `

@@ -8,7 +8,7 @@ export default
         <section id="chatresult">
         </section>
         
-        ${nav('/nyfiken-qr', '/demos')}
+        ${nav('/nyfiken-qr', '/framtiden')}
     </main>
     <script>
           const eventSource = new EventSource('/stream');

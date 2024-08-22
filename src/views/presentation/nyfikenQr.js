@@ -2,7 +2,7 @@ import { generateQR } from '../../functions/generateQr.js';
 import nav from '../../components/presentationNav.js';
 
 
-const url = "https://talk.maxbergstrom.se/nyfiken";
+const url = "http://18.192.172.194/nyfiken";
 const imgUrl = await generateQR(url);
 
 export default
