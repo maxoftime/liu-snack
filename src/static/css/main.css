@@ -375,6 +375,9 @@ img.qr {
 }
 
 @media (max-width: 800px) {
+    h1 {
+        font-size: 1.5em;
+    }
     .masonry {
         column-count: 2;
     }
